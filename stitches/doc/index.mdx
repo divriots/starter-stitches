@@ -1,0 +1,62 @@
+import React from 'react';
+import { mdx } from '@mdx-js/react';
+import { SystemUIShowcases } from '@divriots/dockit-react/systemui-showcases';
+import { theme } from '../src';
+import { MdxLayout } from '~/layout';
+export default MdxLayout;
+
+# Stitches tokens
+
+## Colors
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="bg"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    borderRadius: 4,
+    checkeredBackground: true,
+  }}
+/>
+
+## Spacing
+
+<SystemUIShowcases theme={theme} showcaseKey="space" />
+
+## Fonts
+
+<SystemUIShowcases theme={theme} showcaseKey="fontFamily" />
+
+## Font Sizes
+
+<SystemUIShowcases theme={theme} showcaseKey="fontSize" />
+
+# Font Weights
+
+<SystemUIShowcases theme={theme} showcaseKey="fontWeight" />
+
+# Line Height
+
+<SystemUIShowcases theme={theme} showcaseKey="lineHeight" />
+
+# Letter Spacing
+
+<SystemUIShowcases theme={theme} showcaseKey="letterSpacing" />
+
+# Shadows
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="boxShadow"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    borderRadius: 4,
+  }}
+/>
+
+# zIndex
+
+<SystemUIShowcases theme={theme} showcaseKey="zIndex" />

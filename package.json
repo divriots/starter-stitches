@@ -1,0 +1,17 @@
+{
+  "name": "@backlight-dev/divriots.starter-stitches",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve oDcLTC4uuKc9dEF5lbrz --open"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@stitches/react": "*",
+    "@mdx-js/react": "*",
+    "@divriots/dockit-react": "*"
+  }
+}

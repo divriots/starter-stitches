@@ -1,0 +1,26 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      [
+        "TOKENS",
+        [
+          "colors",
+          "stitches"
+        ]
+      ],
+      [
+        "COMPONENTS",
+        [
+          "button"
+        ]
+      ],
+      [
+        "DOCKIT",
+        [
+          "layout"
+        ]
+      ]
+    ]
+  }
+}

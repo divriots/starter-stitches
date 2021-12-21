@@ -1,0 +1,21 @@
+import React from 'react';
+import { mdx } from '@mdx-js/react';
+import { SystemUIShowcases } from '@divriots/dockit-react/systemui-showcases';
+import { colors } from '../src';
+import { MdxLayout } from '~/layout';
+export const theme = { colors };
+export default MdxLayout;
+
+# Colors
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="bg"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    borderRadius: 4,
+    checkeredBackground: true,
+  }}
+/>
