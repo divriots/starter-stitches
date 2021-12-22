@@ -1,7 +1,5 @@
-import React from 'react';
-import { mdx } from '@mdx-js/react';
-import { MdxLayout } from '~/layout';
-export default MdxLayout;
+[![backlight.dev](https://img.shields.io/badge/Open%20in-Backlight.dev%20editor-%23f8c307)](https://backlight.dev/review/oDcLTC4uuKc9dEF5lbrz)
+[![Github Repo](https://img.shields.io/github/last-commit/divriots/starter-stitches)](https://github.com/divriots/starter-stitches)
 
 # Stitches Tech Sample <br/><small>_by_ ‹div›RIOTS</small>
 
