@@ -1,11 +1,46 @@
 import React from 'react';
 import { mdx } from '@mdx-js/react';
+
 import { SystemUIShowcases } from '@divriots/dockit-react/systemui-showcases';
-import { theme } from '../src';
+
 import { MdxLayout } from '~/layout';
 export default MdxLayout;
 
+import { theme } from '../src';
+
 # Stitches tokens
+
+## Borders
+
+### Borders Widths
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="borderWidth"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    borderRadius: '1',
+    borderColor: 'green.6',
+    borderStyle: 'solid',
+  }}
+/>
+
+### Borders Styles
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="borderStyle"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    borderRadius: '1',
+    borderColor: 'green.6',
+    borderWidth: '2px',
+  }}
+/>
 
 ## Colors
 
@@ -21,31 +56,20 @@ export default MdxLayout;
   }}
 />
 
-## Spacing
+## Radii
 
-<SystemUIShowcases theme={theme} showcaseKey="space" />
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="borderRadius"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    bg: 'green',
+  }}
+/>
 
-## Fonts
-
-<SystemUIShowcases theme={theme} showcaseKey="fontFamily" />
-
-## Font Sizes
-
-<SystemUIShowcases theme={theme} showcaseKey="fontSize" />
-
-# Font Weights
-
-<SystemUIShowcases theme={theme} showcaseKey="fontWeight" />
-
-# Line Height
-
-<SystemUIShowcases theme={theme} showcaseKey="lineHeight" />
-
-# Letter Spacing
-
-<SystemUIShowcases theme={theme} showcaseKey="letterSpacing" />
-
-# Shadows
+## Shadows
 
 <SystemUIShowcases
   theme={theme}
@@ -57,6 +81,44 @@ export default MdxLayout;
   }}
 />
 
-# zIndex
+## Sizes
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="width"
+  componentProps={{
+    height: '8rem',
+    boxShadow: 'large',
+    bg: 'green',
+  }}
+/>
+
+## Spaces
+
+<SystemUIShowcases theme={theme} showcaseKey="space" />
+
+## Typography
+
+### Fonts
+
+<SystemUIShowcases theme={theme} showcaseKey="fontFamily" />
+
+### Font Sizes
+
+<SystemUIShowcases theme={theme} showcaseKey="fontSize" />
+
+### Font Weights
+
+<SystemUIShowcases theme={theme} showcaseKey="fontWeight" />
+
+### Line Height
+
+<SystemUIShowcases theme={theme} showcaseKey="lineHeight" />
+
+### Letter Spacing
+
+<SystemUIShowcases theme={theme} showcaseKey="letterSpacing" />
+
+## zIndex
 
 <SystemUIShowcases theme={theme} showcaseKey="zIndex" />

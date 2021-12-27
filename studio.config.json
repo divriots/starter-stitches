@@ -5,7 +5,15 @@
       [
         "TOKENS",
         [
+          "borders",
           "colors",
+          "radii",
+          "shadows",
+          "sizes",
+          "spaces",
+          "transitions",
+          "typography",
+          "zIndices",
           "stitches"
         ]
       ],
