@@ -1,6 +1,6 @@
 export const sizes = {
-  small: '544px',
-  medium: '768px',
-  large: '1012px',
-  xlarge: '1280px',
+  small: '64px',
+  medium: '128px',
+  large: '256px',
+  xlarge: '512px',
 };
