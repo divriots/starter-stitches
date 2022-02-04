@@ -3,7 +3,7 @@ import { styled } from '~/stitches';
 export const Button = styled('button', {
   backgroundColor: '$primary',
   color: '$text_on_primary',
-  borderRadius: '9999px',
+  borderRadius: '5px',
   fontSize: '$3',
   padding: '$2 $4',
   border: '0',
