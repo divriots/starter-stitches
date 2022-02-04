@@ -12,6 +12,7 @@
   "dependencies": {
     "@stitches/react": "*",
     "@mdx-js/react": "^1",
-    "@divriots/dockit-react": "*"
+    "@divriots/dockit-react": "*",
+    "@testing-library/dom": "*"
   }
 }

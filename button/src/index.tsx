@@ -15,10 +15,13 @@ export const Button = styled('button', {
   variants: {
     type: {
       secondary: {
-        backgroundColor: '$secondary',
-        color: '$text_on_secondary',
+        backgroundColor: '$blue500',
+        color: '$text_on_primary',
         '&:hover': {
-          backgroundColor: '$secondary_light',
+          backgroundColor: '$primary_light',
+        },
+        '&:focus': {
+          backgroundColor: 'red',
         },
       },
     },
