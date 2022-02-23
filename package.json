@@ -12,6 +12,7 @@
   "dependencies": {
     "@stitches/react": "*",
     "@mdx-js/react": "^1",
+    "react": "*",
     "@divriots/dockit-react": "*"
   }
 }
