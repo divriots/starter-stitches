@@ -11,8 +11,9 @@
   "devDependencies": {},
   "dependencies": {
     "@stitches/react": "*",
-    "@mdx-js/react": "^1",
-    "react": "*",
+    "@mdx-js/react": "*",
+    "react": "^17",
+    "react-dom": "^17",
     "@divriots/dockit-react": "*"
   }
 }
